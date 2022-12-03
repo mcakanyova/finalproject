@@ -1,0 +1,10 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+header {display: grid;
+grid-template-columns: 20%;
+gap: 10px;
+}
+
+h1{color:red;}
