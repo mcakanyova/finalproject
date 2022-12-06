@@ -7,18 +7,19 @@ body {
     font-size: 20px;
     line-height: 1.5;
     color: #003249;
+    background-color: #F8EDEB;
   }
 
   .wrapper {
 	max-width: 80rem;
 	margin: 0 auto;
-	background-color: white;
+	background-color: whitesmoke;
 }
 
  
 nav {display: block; padding: 15%;}
   
-h1{color:#F5EDDC; text-align: center;font-size: 80px;font-style:italic;}
+h1{color: grey; text-align: center;font-size: 80px;font-style:italic;}
   
 h2{color:#003249; text-align: center; font-size: 42px; font-family: "Arial";}
   
@@ -58,16 +59,16 @@ h3{color:#003249; text-align: left; font-size: 30px; font-family: "Arial";}
     font-style: normal;
     text-decoration: none;
     color: #003249;
-    background-color: rgba(134, 93, 130, 0.555);
-    border-radius: 50%;
+    background-color: #F8EDEB;
+    border-radius: 5%;
   }
   
   .menu a:hover {
-    background-color: #F6F8DD;
+    background-color:#D8E2DC;
   }
 
   .submenu a:hover {
-    background-color: #F6F8DD;
+    background-color: #FAE1DD;
   }
 
   img {display: block; box-shadow: inset 0 0 50px var(--grey-900); margin-left: auto; margin-right: auto; width: 15%;}
@@ -83,7 +84,11 @@ justify-content: center;
 align-content: center;
 justify-items: center;
 align-items: center;
+margin-bottom: 20px;
 }
+
 .lecture {background-color: #CCDBDC;
     padding: 60px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 5px;
 }
