@@ -206,8 +206,8 @@ h3 {
 }
 
 .content {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
   padding-bottom: 50px;
 }
 
@@ -226,4 +226,15 @@ h3 {
 
 .tableCV {
   border: none;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.longquote {font-size: 14px;
+  color: gray;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+  }
+
+#education, #publications {background-color: #F8EDEB;
+}
+/*# sourceMappingURL=style.css.map */
