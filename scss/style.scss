@@ -1,0 +1,75 @@
+@use 'footer';
+@use 'lectures';
+@use 'tablet';
+@use 'menu';
+@use 'images';
+@use 'header';
+
+
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    color: $font-primary-color;
+    background-color: $primary-color;
+  }
+
+  .wrapper {
+	max-width: 80rem;
+	margin: 0 auto;
+	background-color: whitesmoke;
+}
+
+ 
+nav {display: block; padding: 50px;}
+
+p{font-size: 18px;}
+  
+h1{color: grey; text-align: center;font-size: 80px;font-style: normal;}
+  
+h2{color:$font-primary-color; text-align: center; font-size: 42px; font-family: "Arial";}
+  
+h3{color:$font-primary-color; text-align: left; font-size: 30px; font-family: "Arial";}
+
+$primary-color: #F8EDEB;
+$secondary-color: #CCDBDC;
+$font-primary-color:#003249;
+
+.treeintro {display: flex;
+justify-content: center;
+align-items: center;
+justify-items: center;
+align-content: center;
+text-align:start;
+margin: auto;}
+
+.content {margin-left: 100px;
+margin-right: 100px;
+padding-bottom: 50px;}
+
+.MC {display: flex;
+padding: 20px;
+align-items:center;
+justify-items: center;
+justify-content: center;
+}
+
+
+.writingtable, td {border: 1px solid grey;
+font-size: 14 px;
+}
+
+.tableCV {border: none;}
+
+.longquote {font-size: 12px;
+color: lightgray;
+margin-left: 50px,
+margin-right: 50px;}
+
+
+.education, .conferences {background-color: $primary-color;}
