@@ -57,6 +57,25 @@ footer {
   float: right;
 }
 
+.morphosyntax_lessons {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(4, 150px);
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.lecture {
+  background-color: #CCDBDC;
+  padding: 60px;
+  box-shadow: 0px 4px 6px rgba(64, 123, 255, 0.1215686275);
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 1000px) {
   .morphosyntax_lessons {
     grid-template-columns: repeat(2, 300px);
@@ -120,25 +139,6 @@ footer {
 
 .submenu a:hover {
   background-color: #FAE1DD;
-}
-
-.morphosyntax_lessons {
-  display: grid;
-  grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(4, 150px);
-  gap: 20px;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.lecture {
-  background-color: #CCDBDC;
-  padding: 60px;
-  box-shadow: 0px 4px 6px rgba(64, 123, 255, 0.1215686275);
-  border-radius: 5px;
 }
 
 html {
