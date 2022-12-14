@@ -9,25 +9,6 @@ footer {
   overflow: auto;
 }
 
-.morphosyntax_lessons {
-  display: grid;
-  grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(4, 150px);
-  gap: 20px;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.lecture {
-  background-color: #CCDBDC;
-  padding: 60px;
-  box-shadow: 0px 4px 6px rgba(64, 123, 255, 0.1215686275);
-  border-radius: 5px;
-}
-
 .Misa {
   display: block;
   box-shadow: inset 0 0 50px var(--grey-900);
@@ -92,6 +73,13 @@ footer {
     grid-template-rows: repeat(4, 1fr);
   }
 }
+/*.hero {
+    padding: 150px 30px;
+    background-image: url(/images/dalle.png);
+    background-repeat: repeat;
+    background-position: top;
+    background-size: contain;
+}*/
 .menu {
   margin: 0;
   padding: 20px;
@@ -134,13 +122,25 @@ footer {
   background-color: #FAE1DD;
 }
 
-/*.hero {
-    padding: 150px 30px;
-    background-image: url(/images/dalle.png);
-    background-repeat: repeat;
-    background-position: top;
-    background-size: contain;
-}*/
+.morphosyntax_lessons {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(4, 150px);
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.lecture {
+  background-color: #CCDBDC;
+  padding: 60px;
+  box-shadow: 0px 4px 6px rgba(64, 123, 255, 0.1215686275);
+  border-radius: 5px;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -209,6 +209,7 @@ h3 {
   margin-left: 80px;
   margin-right: 80px;
   padding-bottom: 50px;
+  background-color: whitesmoke;
 }
 
 .MC {
@@ -228,13 +229,13 @@ h3 {
   border: none;
 }
 
-.longquote {font-size: 14px;
+.longquote {
+  font-size: 14px;
   color: gray;
   margin-left: 50px;
   margin-right: 50px;
-  
-  }
-
-#education, #publications {background-color: #F8EDEB;
 }
-/*# sourceMappingURL=style.css.map */
+
+#education, #publications {
+  background-color: #F8EDEB;
+}/*# sourceMappingURL=style.css.map */

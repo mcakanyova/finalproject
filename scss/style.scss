@@ -1,9 +1,9 @@
 @use 'footer';
-@use 'lectures';
 @use 'tablet';
-@use 'menu';
-@use 'images';
 @use 'header';
+@use 'colors';
+@use 'menu';
+@use 'lectures';
 
 
 html { box-sizing: border-box; }
@@ -15,8 +15,8 @@ body {
     font-size: 18px;
     text-align: justify;
     line-height: 1.5;
-    color: $font-primary-color;
-    background-color: $primary-color;
+    color: colors.$font-primary-color;
+    background-color: colors.$primary-color;
   }
 
   .wrapper {
@@ -32,13 +32,11 @@ p{font-size: 18px;}
   
 h1{color: grey; text-align: center;font-size: 80px;font-style: normal;}
   
-h2{color:$font-primary-color; text-align: center; font-size: 42px; font-family: "Arial";}
+h2{color:colors.$font-primary-color; text-align: center; font-size: 42px; font-family: "Arial";}
   
-h3{color:$font-primary-color; text-align: left; font-size: 30px; font-family: "Arial";}
+h3{color:colors.$font-primary-color; text-align: left; font-size: 30px; font-family: "Arial";}
 
-$primary-color: #F8EDEB;
-$secondary-color: #CCDBDC;
-$font-primary-color:#003249;
+
 
 .treeintro {display: flex;
 justify-content: center;
@@ -77,5 +75,5 @@ font-size: 14px;
   }
 
 
-#education, #publications {background-color: $primary-color;
+#education, #publications {background-color: colors.$primary-color;
 }

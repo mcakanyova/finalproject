@@ -1,11 +1,11 @@
-
+@use 'colors';
 
 .menu {
 
     margin: 0;
     padding: 20px;
     text-align: center;
-    background-color: $secondary-color;
+    background-color: colors.$secondary-color;
     
   }
   
@@ -15,7 +15,7 @@
     font-size: 20px;
     font-style: normal;
     text-decoration: none;
-    color: $font-primary-color;
+    color: colors.$font-primary-color;
     
   }
 
@@ -34,7 +34,7 @@
     font-size: 20px;
     font-style: normal;
     text-decoration: none;
-    color: $font-primary-color;
+    color: colors.$font-primary-color;
     background-color: #F8EDEB;
     border-radius: 5%;
   }
